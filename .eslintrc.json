@@ -1,0 +1,23 @@
+{
+	"env": {
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"google",
+		"prettier"
+	],
+	"parserOptions": {
+		"ecmaVersion": "latest"
+	},
+	"rules": {
+		"indent": ["warn", "tab"],
+        "no-unused-vars": "warn",
+        "no-undef": "warn",
+		"require-jsdoc": "off",
+		"guard-for-in": "off",
+        "no-fallthrough": "off",
+        "valid-jsdoc": "off"
+	}
+}

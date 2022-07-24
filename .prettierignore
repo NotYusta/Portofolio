@@ -1,0 +1,9 @@
+node_modules
+.gitignore
+*.lock
+*.md
+*.json
+*.txt
+*.hbs
+public
+resources

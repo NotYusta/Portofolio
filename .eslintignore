@@ -1,0 +1,5 @@
+template
+public
+*.hbs
+node_modules
+resources
